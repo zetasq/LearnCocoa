@@ -48,6 +48,7 @@
 		D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCocoaUITests.swift; sourceTree = "<group>"; };
 		D41AA15825FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D41AA17825FE1823000AABA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D41F55F52604D3330003520B /* MainApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MainApp.xcconfig; sourceTree = "<group>"; };
 		D468393F26034A2600028E70 /* TempUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +81,7 @@
 		D41AA12C25FDC213000AABA9 = {
 			isa = PBXGroup;
 			children = (
+				D41F55F42604D3150003520B /* Configurations */,
 				D41AA13725FDC213000AABA9 /* LearnCocoa */,
 				D41AA14A25FDC216000AABA9 /* LearnCocoaTests */,
 				D41AA15525FDC216000AABA9 /* LearnCocoaUITests */,
@@ -100,13 +102,9 @@
 		D41AA13725FDC213000AABA9 /* LearnCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				D41AA13825FDC213000AABA9 /* AppDelegate.swift */,
-				D41AA17825FE1823000AABA9 /* MainViewController.swift */,
-				D41AA13A25FDC213000AABA9 /* ViewController.swift */,
-				D468393F26034A2600028E70 /* TempUtils.swift */,
-				D41AA13C25FDC216000AABA9 /* Assets.xcassets */,
-				D41AA14125FDC216000AABA9 /* Info.plist */,
-				D41AA14225FDC216000AABA9 /* LearnCocoa.entitlements */,
+				D41F55FC2604D3490003520B /* Sources */,
+				D41F56002604D3560003520B /* Resources */,
+				D41F56012604D3800003520B /* Supporting Files */,
 			);
 			path = LearnCocoa;
 			sourceTree = "<group>";
@@ -127,6 +125,42 @@
 				D41AA15825FDC216000AABA9 /* Info.plist */,
 			);
 			path = LearnCocoaUITests;
+			sourceTree = "<group>";
+		};
+		D41F55F42604D3150003520B /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				D41F55F52604D3330003520B /* MainApp.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		D41F55FC2604D3490003520B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA13825FDC213000AABA9 /* AppDelegate.swift */,
+				D41AA17825FE1823000AABA9 /* MainViewController.swift */,
+				D41AA13A25FDC213000AABA9 /* ViewController.swift */,
+				D468393F26034A2600028E70 /* TempUtils.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D41F56002604D3560003520B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA13C25FDC216000AABA9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D41F56012604D3800003520B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA14125FDC216000AABA9 /* Info.plist */,
+				D41AA14225FDC216000AABA9 /* LearnCocoa.entitlements */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +399,7 @@
 		};
 		D41AA15A25FDC216000AABA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F55F52604D3330003520B /* MainApp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -419,15 +454,14 @@
 		};
 		D41AA15C25FDC216000AABA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41F55F52604D3330003520B /* MainApp.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LearnCocoa/LearnCocoa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8UFJ65847A;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LearnCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -443,12 +477,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LearnCocoa/LearnCocoa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8UFJ65847A;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = LearnCocoa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
