@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Concrete",
+        "repositoryURL": "https://github.com/zetasq/Concrete.git",
+        "state": {
+          "branch": "master",
+          "revision": "ce74d51d8729fefdc3bc0a917f6b7aca0767c25b",
+          "version": null
+        }
+      },
+      {
+        "package": "Flow",
+        "repositoryURL": "https://github.com/zetasq/Flow.git",
+        "state": {
+          "branch": "master",
+          "revision": "c91f6c84a4a7a898ab7ad1580d14668aa196a1c2",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

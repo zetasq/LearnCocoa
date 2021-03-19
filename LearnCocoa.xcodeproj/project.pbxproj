@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41AA13925FDC213000AABA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA13825FDC213000AABA9 /* AppDelegate.swift */; };
+		D41AA13B25FDC213000AABA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA13A25FDC213000AABA9 /* ViewController.swift */; };
+		D41AA13D25FDC216000AABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41AA13C25FDC216000AABA9 /* Assets.xcassets */; };
+		D41AA14C25FDC216000AABA9 /* LearnCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA14B25FDC216000AABA9 /* LearnCocoaTests.swift */; };
+		D41AA15725FDC216000AABA9 /* LearnCocoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */; };
+		D41AA17925FE1823000AABA9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA17825FE1823000AABA9 /* MainViewController.swift */; };
+		D468393B2603453D00028E70 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = D468393A2603453D00028E70 /* Flow */; };
+		D468394026034A2600028E70 /* TempUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468393F26034A2600028E70 /* TempUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D41AA14825FDC216000AABA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41AA12D25FDC213000AABA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41AA13425FDC213000AABA9;
+			remoteInfo = LearnCocoa;
+		};
+		D41AA15325FDC216000AABA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41AA12D25FDC213000AABA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41AA13425FDC213000AABA9;
+			remoteInfo = LearnCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D41AA13525FDC213000AABA9 /* LearnCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41AA13825FDC213000AABA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D41AA13A25FDC213000AABA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D41AA13C25FDC216000AABA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41AA14125FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41AA14225FDC216000AABA9 /* LearnCocoa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnCocoa.entitlements; sourceTree = "<group>"; };
+		D41AA14725FDC216000AABA9 /* LearnCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41AA14B25FDC216000AABA9 /* LearnCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCocoaTests.swift; sourceTree = "<group>"; };
+		D41AA14D25FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41AA15225FDC216000AABA9 /* LearnCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCocoaUITests.swift; sourceTree = "<group>"; };
+		D41AA15825FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41AA17825FE1823000AABA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D468393F26034A2600028E70 /* TempUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41AA13225FDC213000AABA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D468393B2603453D00028E70 /* Flow in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA14425FDC216000AABA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA14F25FDC216000AABA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41AA12C25FDC213000AABA9 = {
+			isa = PBXGroup;
+			children = (
+				D41AA13725FDC213000AABA9 /* LearnCocoa */,
+				D41AA14A25FDC216000AABA9 /* LearnCocoaTests */,
+				D41AA15525FDC216000AABA9 /* LearnCocoaUITests */,
+				D41AA13625FDC213000AABA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41AA13625FDC213000AABA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA13525FDC213000AABA9 /* LearnCocoa.app */,
+				D41AA14725FDC216000AABA9 /* LearnCocoaTests.xctest */,
+				D41AA15225FDC216000AABA9 /* LearnCocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41AA13725FDC213000AABA9 /* LearnCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA13825FDC213000AABA9 /* AppDelegate.swift */,
+				D41AA17825FE1823000AABA9 /* MainViewController.swift */,
+				D41AA13A25FDC213000AABA9 /* ViewController.swift */,
+				D468393F26034A2600028E70 /* TempUtils.swift */,
+				D41AA13C25FDC216000AABA9 /* Assets.xcassets */,
+				D41AA14125FDC216000AABA9 /* Info.plist */,
+				D41AA14225FDC216000AABA9 /* LearnCocoa.entitlements */,
+			);
+			path = LearnCocoa;
+			sourceTree = "<group>";
+		};
+		D41AA14A25FDC216000AABA9 /* LearnCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA14B25FDC216000AABA9 /* LearnCocoaTests.swift */,
+				D41AA14D25FDC216000AABA9 /* Info.plist */,
+			);
+			path = LearnCocoaTests;
+			sourceTree = "<group>";
+		};
+		D41AA15525FDC216000AABA9 /* LearnCocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */,
+				D41AA15825FDC216000AABA9 /* Info.plist */,
+			);
+			path = LearnCocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41AA13425FDC213000AABA9 /* LearnCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41AA15B25FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoa" */;
+			buildPhases = (
+				D41AA13125FDC213000AABA9 /* Sources */,
+				D41AA13225FDC213000AABA9 /* Frameworks */,
+				D41AA13325FDC213000AABA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnCocoa;
+			packageProductDependencies = (
+				D468393A2603453D00028E70 /* Flow */,
+			);
+			productName = LearnCocoa;
+			productReference = D41AA13525FDC213000AABA9 /* LearnCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D41AA14625FDC216000AABA9 /* LearnCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41AA15E25FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoaTests" */;
+			buildPhases = (
+				D41AA14325FDC216000AABA9 /* Sources */,
+				D41AA14425FDC216000AABA9 /* Frameworks */,
+				D41AA14525FDC216000AABA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41AA14925FDC216000AABA9 /* PBXTargetDependency */,
+			);
+			name = LearnCocoaTests;
+			productName = LearnCocoaTests;
+			productReference = D41AA14725FDC216000AABA9 /* LearnCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D41AA15125FDC216000AABA9 /* LearnCocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41AA16125FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoaUITests" */;
+			buildPhases = (
+				D41AA14E25FDC216000AABA9 /* Sources */,
+				D41AA14F25FDC216000AABA9 /* Frameworks */,
+				D41AA15025FDC216000AABA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41AA15425FDC216000AABA9 /* PBXTargetDependency */,
+			);
+			name = LearnCocoaUITests;
+			productName = LearnCocoaUITests;
+			productReference = D41AA15225FDC216000AABA9 /* LearnCocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41AA12D25FDC213000AABA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D41AA13425FDC213000AABA9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D41AA14625FDC216000AABA9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D41AA13425FDC213000AABA9;
+					};
+					D41AA15125FDC216000AABA9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D41AA13425FDC213000AABA9;
+					};
+				};
+			};
+			buildConfigurationList = D41AA13025FDC213000AABA9 /* Build configuration list for PBXProject "LearnCocoa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D41AA12C25FDC213000AABA9;
+			packageReferences = (
+				D46839392603453D00028E70 /* XCRemoteSwiftPackageReference "Flow" */,
+			);
+			productRefGroup = D41AA13625FDC213000AABA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41AA13425FDC213000AABA9 /* LearnCocoa */,
+				D41AA14625FDC216000AABA9 /* LearnCocoaTests */,
+				D41AA15125FDC216000AABA9 /* LearnCocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41AA13325FDC213000AABA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AA13D25FDC216000AABA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA14525FDC216000AABA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA15025FDC216000AABA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41AA13125FDC213000AABA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AA17925FE1823000AABA9 /* MainViewController.swift in Sources */,
+				D468394026034A2600028E70 /* TempUtils.swift in Sources */,
+				D41AA13B25FDC213000AABA9 /* ViewController.swift in Sources */,
+				D41AA13925FDC213000AABA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA14325FDC216000AABA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AA14C25FDC216000AABA9 /* LearnCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41AA14E25FDC216000AABA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41AA15725FDC216000AABA9 /* LearnCocoaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D41AA14925FDC216000AABA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41AA13425FDC213000AABA9 /* LearnCocoa */;
+			targetProxy = D41AA14825FDC216000AABA9 /* PBXContainerItemProxy */;
+		};
+		D41AA15425FDC216000AABA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41AA13425FDC213000AABA9 /* LearnCocoa */;
+			targetProxy = D41AA15325FDC216000AABA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D41AA15925FDC216000AABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D41AA15A25FDC216000AABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D41AA15C25FDC216000AABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearnCocoa/LearnCocoa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LearnCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D41AA15D25FDC216000AABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LearnCocoa/LearnCocoa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = LearnCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D41AA15F25FDC216000AABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				INFOPLIST_FILE = LearnCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnCocoa.app/Contents/MacOS/LearnCocoa";
+			};
+			name = Debug;
+		};
+		D41AA16025FDC216000AABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				INFOPLIST_FILE = LearnCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnCocoa.app/Contents/MacOS/LearnCocoa";
+			};
+			name = Release;
+		};
+		D41AA16225FDC216000AABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				INFOPLIST_FILE = LearnCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LearnCocoa;
+			};
+			name = Debug;
+		};
+		D41AA16325FDC216000AABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8UFJ65847A;
+				INFOPLIST_FILE = LearnCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.LearnCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LearnCocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41AA13025FDC213000AABA9 /* Build configuration list for PBXProject "LearnCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41AA15925FDC216000AABA9 /* Debug */,
+				D41AA15A25FDC216000AABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41AA15B25FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41AA15C25FDC216000AABA9 /* Debug */,
+				D41AA15D25FDC216000AABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41AA15E25FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41AA15F25FDC216000AABA9 /* Debug */,
+				D41AA16025FDC216000AABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41AA16125FDC216000AABA9 /* Build configuration list for PBXNativeTarget "LearnCocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41AA16225FDC216000AABA9 /* Debug */,
+				D41AA16325FDC216000AABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D46839392603453D00028E70 /* XCRemoteSwiftPackageReference "Flow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zetasq/Flow.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D468393A2603453D00028E70 /* Flow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D46839392603453D00028E70 /* XCRemoteSwiftPackageReference "Flow" */;
+			productName = Flow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D41AA12D25FDC213000AABA9 /* Project object */;
+}
