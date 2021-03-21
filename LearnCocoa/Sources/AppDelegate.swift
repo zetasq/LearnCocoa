@@ -27,25 +27,33 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	private func setUp() {
 		setUpMenu()
 
-		let window = NSWindow(
-			contentRect: .zero,
-			styleMask: [.titled, .closable, .miniaturizable, .resizable],
-			backing: .buffered, defer: false
-		)
-
-		window.titlebarSeparatorStyle = .automatic
-		window.hasShadow = true
-		window.isRestorable = true
-		window.tabbingMode = .automatic
-		window.contentViewController = MainViewController()
-
-		window.title = "LearnCocoa"
-		window.setFrame(NSRect(x: 100, y: 240, width: 480, height: 270), display: false)
-
-		window.makeKeyAndOrderFront(nil)
-
-		mainWindow = window
+//		let window = NSWindow(
+//			contentRect: .zero,
+//			styleMask: [.titled, .closable, .miniaturizable, .resizable],
+//			backing: .buffered, defer: false
+//		)
+//
+//		window.titlebarSeparatorStyle = .automatic
+//		window.hasShadow = true
+//		window.isRestorable = true
+//		window.tabbingMode = .automatic
+//		window.contentViewController = MainViewController()
+//
+//		window.title = "LearnCocoa"
+//		window.setFrame(NSRect(x: 100, y: 240, width: 480, height: 270), display: false)
+//
+//		window.makeKeyAndOrderFront(nil)
+//
+//		mainWindow = window
+    setUpMainWindow()
 	}
+  
+  private func setUpMainWindow() {
+    let windowController = MainWindowController()
+    print(windowController.window)
+    print("dd")
+    windowController.showWindow(nil)
+  }
 
 	private func setUpMenu() {
 		let menu = NSMenu().withBuildContext { context in

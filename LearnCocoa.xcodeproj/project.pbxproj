@@ -13,6 +13,7 @@
 		D41AA14C25FDC216000AABA9 /* LearnCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA14B25FDC216000AABA9 /* LearnCocoaTests.swift */; };
 		D41AA15725FDC216000AABA9 /* LearnCocoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */; };
 		D41AA17925FE1823000AABA9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA17825FE1823000AABA9 /* MainViewController.swift */; };
+		D41F5615260628B80003520B /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5614260628B80003520B /* MainWindowController.swift */; };
 		D468393B2603453D00028E70 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = D468393A2603453D00028E70 /* Flow */; };
 		D468394026034A2600028E70 /* TempUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468393F26034A2600028E70 /* TempUtils.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		D41AA15825FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D41AA17825FE1823000AABA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D41F55F52604D3330003520B /* MainApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MainApp.xcconfig; sourceTree = "<group>"; };
+		D41F5614260628B80003520B /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		D468393F26034A2600028E70 /* TempUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 			children = (
 				D41AA13825FDC213000AABA9 /* AppDelegate.swift */,
 				D41AA17825FE1823000AABA9 /* MainViewController.swift */,
+				D41F5614260628B80003520B /* MainWindowController.swift */,
 				D41AA13A25FDC213000AABA9 /* ViewController.swift */,
 				D468393F26034A2600028E70 /* TempUtils.swift */,
 			);
@@ -301,6 +304,7 @@
 				D468394026034A2600028E70 /* TempUtils.swift in Sources */,
 				D41AA13B25FDC213000AABA9 /* ViewController.swift in Sources */,
 				D41AA13925FDC213000AABA9 /* AppDelegate.swift in Sources */,
+				D41F5615260628B80003520B /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
