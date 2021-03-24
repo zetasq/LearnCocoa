@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D41AA13925FDC213000AABA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA13825FDC213000AABA9 /* AppDelegate.swift */; };
-		D41AA13B25FDC213000AABA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA13A25FDC213000AABA9 /* ViewController.swift */; };
 		D41AA13D25FDC216000AABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41AA13C25FDC216000AABA9 /* Assets.xcassets */; };
 		D41AA14C25FDC216000AABA9 /* LearnCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA14B25FDC216000AABA9 /* LearnCocoaTests.swift */; };
 		D41AA15725FDC216000AABA9 /* LearnCocoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */; };
-		D41AA17925FE1823000AABA9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41AA17825FE1823000AABA9 /* MainViewController.swift */; };
 		D41F5615260628B80003520B /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F5614260628B80003520B /* MainWindowController.swift */; };
 		D468393B2603453D00028E70 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = D468393A2603453D00028E70 /* Flow */; };
 		D468394026034A2600028E70 /* TempUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468393F26034A2600028E70 /* TempUtils.swift */; };
+		D48019EF2607588A0028484D /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48019EE2607588A0028484D /* PasswordGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D41AA13525FDC213000AABA9 /* LearnCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41AA13825FDC213000AABA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D41AA13A25FDC213000AABA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D41AA13C25FDC216000AABA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41AA14125FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D41AA14225FDC216000AABA9 /* LearnCocoa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearnCocoa.entitlements; sourceTree = "<group>"; };
@@ -48,10 +46,12 @@
 		D41AA15225FDC216000AABA9 /* LearnCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41AA15625FDC216000AABA9 /* LearnCocoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCocoaUITests.swift; sourceTree = "<group>"; };
 		D41AA15825FDC216000AABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D41AA17825FE1823000AABA9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D41F55F52604D3330003520B /* MainApp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MainApp.xcconfig; sourceTree = "<group>"; };
 		D41F5614260628B80003520B /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		D468393F26034A2600028E70 /* TempUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempUtils.swift; sourceTree = "<group>"; };
+		D468396B2607277600028E70 /* TestWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWindowController.swift; sourceTree = "<group>"; };
+		D468396C2607277600028E70 /* TestWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestWindowController.xib; sourceTree = "<group>"; };
+		D48019EE2607588A0028484D /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				D41AA13825FDC213000AABA9 /* AppDelegate.swift */,
-				D41AA17825FE1823000AABA9 /* MainViewController.swift */,
 				D41F5614260628B80003520B /* MainWindowController.swift */,
-				D41AA13A25FDC213000AABA9 /* ViewController.swift */,
+				D48019EE2607588A0028484D /* PasswordGenerator.swift */,
 				D468393F26034A2600028E70 /* TempUtils.swift */,
+				D468396B2607277600028E70 /* TestWindowController.swift */,
+				D468396C2607277600028E70 /* TestWindowController.xib */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -300,9 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41AA17925FE1823000AABA9 /* MainViewController.swift in Sources */,
+				D48019EF2607588A0028484D /* PasswordGenerator.swift in Sources */,
 				D468394026034A2600028E70 /* TempUtils.swift in Sources */,
-				D41AA13B25FDC213000AABA9 /* ViewController.swift in Sources */,
 				D41AA13925FDC213000AABA9 /* AppDelegate.swift in Sources */,
 				D41F5615260628B80003520B /* MainWindowController.swift in Sources */,
 			);

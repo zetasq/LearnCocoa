@@ -18,41 +18,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     _ = NSApplicationMain(CommandLine.argc, CommandLine.unsafeArgv)
   }
   
-  private var mainWindow: NSWindow?
-  
   func applicationDidFinishLaunching(_ aNotification: Notification) {
 		setUp()
   }
 
+	private var mainWindowController: MainWindowController?
+
 	private func setUp() {
 		setUpMenu()
 
-//		let window = NSWindow(
-//			contentRect: .zero,
-//			styleMask: [.titled, .closable, .miniaturizable, .resizable],
-//			backing: .buffered, defer: false
-//		)
-//
-//		window.titlebarSeparatorStyle = .automatic
-//		window.hasShadow = true
-//		window.isRestorable = true
-//		window.tabbingMode = .automatic
-//		window.contentViewController = MainViewController()
-//
-//		window.title = "LearnCocoa"
-//		window.setFrame(NSRect(x: 100, y: 240, width: 480, height: 270), display: false)
-//
-//		window.makeKeyAndOrderFront(nil)
-//
-//		mainWindow = window
-    setUpMainWindow()
-	}
-  
-  private func setUpMainWindow() {
     let windowController = MainWindowController()
-    print(windowController.window)
-    print("dd")
+		windowController.window?.setFrame(NSRect(x: 100, y: 240, width: 480, height: 270), display: false)
     windowController.showWindow(nil)
+
+		self.mainWindowController = windowController
   }
 
 	private func setUpMenu() {
