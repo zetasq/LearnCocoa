@@ -30,7 +30,7 @@ extension Bundle {
 			}
 		}
 
-		assertionFailure("No available name for bundle: \(self)")
+		assertionFailure("No available displayName for bundle: \(self)")
 		return ""
 	}
 }
